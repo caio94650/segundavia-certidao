@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Entenda prazos, requisitos e orientações para solicitar a segunda via de certidões de registro civil de forma online, com segurança e conformidade.">
   <meta name="theme-color" content="#0a3d62">
+  <!-- Robots -->
+  <meta name="robots" content="noindex, nofollow, noarchive">
   <!-- Open Graph -->
   <meta property="og:title" content="Como solicitar 2ª via de certidões sem sair de casa | Guia 2025">
   <meta property="og:description" content="Passo a passo, prazos, documentos e orientações para solicitar online.">
@@ -15,82 +17,36 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root{
-      --bg:#f6f7fb;--paper:#ffffff;--ink:#0f172a;--muted:#64748b;
-      --primary:#0a3d62;--accent:#1e6bb8;--ok:#10b981;--radius:16px;
-      --border:#e5e7eb
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;background:var(--bg);color:var(--ink);
-      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-      -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
-      display:flex;flex-direction:column;min-height:100vh
-    }
-    /* Header estilo portal */
-    .sitebar{
-      background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff
-    }
-    .sitebar .wrap{
-      max-width:1120px;margin:0 auto;padding:14px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between
-    }
+    :root{--bg:#f6f7fb;--paper:#fff;--ink:#0f172a;--muted:#64748b;--primary:#0a3d62;--accent:#1e6bb8;--ok:#10b981;--radius:16px;--border:#e5e7eb}
+    *{box-sizing:border-box} html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;display:flex;flex-direction:column;min-height:100vh}
+    .sitebar{background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff}
+    .sitebar .wrap{max-width:1120px;margin:0 auto;padding:14px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between}
     .brand{display:flex;align-items:center;gap:12px}
     .logo{width:44px;height:44px;border-radius:12px;background:rgba(255,255,255,.14);display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.15)}
     .logo svg{width:26px;height:26px;fill:#fff}
-    .brand-title{display:flex;flex-direction:column}
-    .brand-title .name{font-weight:800;letter-spacing:.2px}
-    .brand-title .sub{font-size:12px;opacity:.9}
+    .brand-title{display:flex;flex-direction:column}.brand-title .name{font-weight:800}.brand-title .sub{font-size:12px;opacity:.9}
     .secure{display:flex;align-items:center;gap:8px;font-weight:700;background:rgba(255,255,255,.14);padding:6px 10px;border-radius:999px}
-    /* Conteúdo */
-    main{flex:1}
-    .container{max-width:960px;margin:18px auto;padding:0 16px}
-    .article{
-      background:var(--paper);border:1px solid var(--border);border-radius:var(--radius);
-      box-shadow:0 10px 36px rgba(2,8,23,.05);overflow:hidden
-    }
+    main{flex:1}.container{max-width:960px;margin:18px auto;padding:0 16px}
+    .article{background:var(--paper);border:1px solid var(--border);border-radius:var(--radius);box-shadow:0 10px 36px rgba(2,8,23,.05);overflow:hidden}
     .hero{width:100%;aspect-ratio:16/7;object-fit:cover}
-    .content{padding:18px}
-    h1{font-size:1.6rem;margin:6px 0 10px}
-    .meta{color:var(--muted);font-size:.9rem}
+    .content{padding:18px} h1{font-size:1.6rem;margin:6px 0 10px} .meta{color:var(--muted);font-size:.9rem}
     p{line-height:1.65;margin:10px 0}
-    .infobox{
-      background:#f8fafc;border:1px dashed var(--border);border-radius:12px;padding:12px;margin:12px 0
-    }
-    .grid{display:grid;gap:12px}
-    .cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
-    h2{font-size:1.1rem;margin:18px 0 8px}
-    ul{margin:8px 0 8px 18px}
-    li{margin:6px 0}
-    .cta{
-      margin:16px 0 4px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;
-      background:#f1f5ff;border:1px solid #c7d7ff;border-radius:12px;padding:12px
-    }
+    .infobox{background:#f8fafc;border:1px dashed var(--border);border-radius:12px;padding:12px;margin:12px 0}
+    .grid{display:grid;gap:12px}.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    h2{font-size:1.1rem;margin:18px 0 8px} ul{margin:8px 0 8px 18px} li{margin:6px 0}
+    .cta{margin:16px 0 4px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;background:#f1f5ff;border:1px solid #c7d7ff;border-radius:12px;padding:12px}
     .cta strong{display:block}
-    .btn{
-      appearance:none;border:none;cursor:pointer;
-      background:var(--primary);color:#fff;font-weight:800;border-radius:12px;
-      padding:12px 16px;min-height:48px;font-size:16px;text-decoration:none;display:inline-flex;align-items:center;gap:8px
-    }
-    .btn:hover{background:#072c46}
+    .btn{appearance:none;border:none;cursor:pointer;background:var(--primary);color:#fff;font-weight:800;border-radius:12px;padding:12px 16px;min-height:48px;font-size:16px;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+    .btn:hover{background:#072c46}.btn[aria-disabled="true"]{opacity:.6;pointer-events:none}
     .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-    .badge{
-      display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;font-size:.78rem;font-weight:700;
-      border:1px solid var(--border);background:#fff
-    }
+    .badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;font-size:.78rem;font-weight:700;border:1px solid var(--border);background:#fff}
     .badge .dot{width:10px;height:10px;border-radius:999px;background:var(--ok)}
-    /* Footer institucional */
     footer{padding:0 16px 24px;color:var(--muted)}
-    .foot{
-      max-width:960px;margin:14px auto 0;background:#fff;border:1px solid var(--border);
-      border-radius:12px;padding:12px;text-align:center;font-size:.9rem
-    }
-    /* Mobile */
-    @media (max-width:860px){
-      .cols-2{grid-template-columns:1fr}
-      h1{font-size:1.35rem}
-      .secure{display:none}
-    }
+    .foot{max-width:960px;margin:14px auto 0;background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px;text-align:center;font-size:.9rem}
+    .foot .links{margin-top:8px}
+    .foot a{color:#1e6bb8;text-decoration:none} .foot a:hover{text-decoration:underline}
+    @media (max-width:860px){.cols-2{grid-template-columns:1fr} h1{font-size:1.35rem} .secure{display:none}}
   </style>
 </head>
 <body>
@@ -168,8 +124,11 @@
               <span class="badge"><span class="dot"></span> Atendimento nacional</span>
             </div>
           </div>
-          <!-- TROQUE O LINK ABAIXO PELO URL DO SEU FORMULÁRIO -->
-          <a class="btn" href="https://seu-dominio.com/formulario" rel="noopener">Solicitar 2ª via agora →</a>
+          <!-- 🔒 Botão travado: troque o data-href pelo link do seu formulário -->
+          <a id="cta" class="btn" href="#" rel="nofollow noopener noreferrer" aria-disabled="true"
+             data-href="https://seu-dominio.com/formulario">
+            Solicitar 2ª via agora →
+          </a>
         </div>
 
         <h2>Perguntas frequentes</h2>
@@ -193,12 +152,67 @@
     <div class="foot">
       Cartório Central de Registro Civil – Sede São Paulo/SP • CNPJ: 00.000.000/0000-00 • Av. Central, 123 – São Paulo/SP – CEP 00000-000<br>
       Este conteúdo é informativo e visa orientar o cidadão sobre a solicitação de 2ª via de certidões.
+      <div class="links">
+        <a href="/politica" rel="nofollow">Política de Privacidade</a> •
+        <a href="/termos" rel="nofollow">Termos de Uso</a> •
+        <a href="/contato" rel="nofollow">Contato</a>
+      </div>
     </div>
   </footer>
 
-  <!-- opcional: pequeno script para marcar clique no botão (analytics) -->
+  <!-- 🔒 Desbloqueio do CTA com gesto humano + desafio JS leve -->
   <script>
-    document.querySelector('.btn')?.addEventListener('click',()=>{ try{ console.log('CTA pressel clicado'); }catch(e){} });
+  (function(){
+    const cta = document.getElementById('cta');
+    if(!cta) return;
+
+    // dica visível até liberar
+    const hint = document.createElement('small');
+    hint.id = 'cta-hint';
+    hint.style.display = 'block';
+    hint.style.color = '#64748b';
+    hint.style.marginTop = '6px';
+    hint.textContent = 'Ative o botão com um gesto (toque, rolar a página ou tecla).';
+    cta.parentElement.appendChild(hint);
+
+    // desafio leve: gera hash simples baseado em timestamp + userAgent
+    function simpleHash(s){
+      let h = 2166136261; // FNV-1a seed
+      for(let i=0;i<s.length;i++){ h ^= s.charCodeAt(i); h = (h * 16777619) >>> 0; }
+      return h.toString(16);
+    }
+
+    function buildToken(){
+      const ts = Date.now().toString();
+      const ua = (navigator.userAgent||'').slice(0,120);
+      const sum = simpleHash(ts + '|' + ua);
+      return btoa(ts + '.' + sum);
+    }
+
+    function unlock(){
+      if(cta.dataset.unlocked) return;
+      const href = cta.getAttribute('data-href');
+      if(!href) return;
+      const token = buildToken();
+      const sep = href.includes('?') ? '&' : '?';
+      cta.setAttribute('href', href + sep + 't=' + encodeURIComponent(token));
+      cta.removeAttribute('aria-disabled');
+      cta.dataset.unlocked = '1';
+      hint.style.display = 'none';
+    }
+
+    // sinais de interação humana
+    const events = ['pointerdown','touchstart','keydown','wheel','scroll','mousemove'];
+    events.forEach(ev => window.addEventListener(ev, unlock, { once:true, passive:true }));
+
+    // fallback: libera após 3s na página
+    setTimeout(unlock, 3000);
+
+    // impede clique enquanto travado
+    cta.addEventListener('click', (e)=>{
+      if(cta.getAttribute('href') === '#'){ e.preventDefault(); }
+    });
+  })();
   </script>
 </body>
 </html>
